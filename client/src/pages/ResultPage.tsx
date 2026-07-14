@@ -19,8 +19,7 @@ export default function ResultPage() {
   const [showScare, setShowScare] = useState(false);
   const [visibleSections, setVisibleSections] = useState<Set<string>>(new Set());
 
-  const outcome = gameState?.outcome ?? null;
-  const outcomeResult = outcome?.result ?? 'bad';
+  const outcomeResult = gameState?.outcome ?? 'bad';
   const ending = outcomeResult === 'good'
     ? (script as ScriptData)?.endings?.good
     : (script as ScriptData)?.endings?.bad;

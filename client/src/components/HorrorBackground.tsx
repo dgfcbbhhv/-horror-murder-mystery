@@ -13,9 +13,7 @@ interface HorrorBackgroundProps {
   lightning?: boolean;
 }
 
-export default function HorrorBackground({
-  useVideo = false,
-}: HorrorBackgroundProps) {
+export default function HorrorBackground(_props: HorrorBackgroundProps) {
   return (
     <>
       <div
