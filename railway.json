@@ -1,0 +1,9 @@
+{
+  "build": {
+    "buildCommand": "npm install --include=dev && cd client && npm install --include=dev && npm run build"
+  },
+  "deploy": {
+    "startCommand": "cd server && node index.js",
+    "restartPolicyType": "on-failure"
+  }
+}
