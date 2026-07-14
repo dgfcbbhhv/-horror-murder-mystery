@@ -1,0 +1,17 @@
+{
+  "name": "horror-murder-mystery",
+  "version": "1.0.0",
+  "description": "暗夜迷踪 - 真人沉浸式恐怖剧本杀 Demo",
+  "private": true,
+  "scripts": {
+    "install:all": "cd client && npm install && cd ../server && npm install",
+    "build": "cd client && npm run build",
+    "start": "cd server && node index.js",
+    "dev": "cd client && npm run dev",
+    "dev:server": "cd server && node index.js"
+  },
+  "dependencies": {
+    "canvas": "^3.2.3",
+    "docx": "^9.7.1"
+  }
+}

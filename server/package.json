@@ -1,0 +1,16 @@
+{
+  "name": "horror-murder-mystery-server",
+  "version": "1.0.0",
+  "description": "暗夜迷踪 — 真人沉浸式恐怖剧本杀后端服务器",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "uuid": "^10.0.0",
+    "ws": "^8.18.0"
+  }
+}
